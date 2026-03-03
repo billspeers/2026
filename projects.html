@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Portfolio</title>
+    <meta name="description" content="Project portfolio with case-study highlights and tech tags." />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="index.html">A. Builder</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <ul id="nav-links" class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="resume.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container section">
+      <h1>Projects</h1>
+      <p class="lead">A selected set of projects with measurable outcomes and technologies used.</p>
+
+      <div class="project-grid">
+        <article class="card">
+          <h2>SignalBoard Analytics</h2>
+          <p>
+            Built a multi-tenant analytics app for ops and finance teams with role-based reporting,
+            scheduled exports, and anomaly alerts.
+          </p>
+          <ul class="tags">
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>GraphQL</li>
+            <li>Redis</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>FlowRoute Optimizer</h2>
+          <p>
+            Created optimization APIs and a planner UI for dispatch teams, improving SLA adherence
+            and cutting fuel spend.
+          </p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>FastAPI</li>
+            <li>OR-Tools</li>
+            <li>Docker</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>PulseCare Portal</h2>
+          <p>
+            Delivered secure messaging, telehealth onboarding, and appointment workflows for a
+            health-tech provider.
+          </p>
+          <ul class="tags">
+            <li>Next.js</li>
+            <li>Node.js</li>
+            <li>PostgreSQL</li>
+            <li>WCAG</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>ShopLine Experiments</h2>
+          <p>
+            Developed experimentation tooling and feature flags for checkout funnels, unlocking
+            faster iteration cycles.
+          </p>
+          <ul class="tags">
+            <li>JavaScript</li>
+            <li>A/B Testing</li>
+            <li>Data Pipelines</li>
+          </ul>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 A. Builder</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Project-First</title>
+    <meta
+      name="description"
+      content="Project-first portfolio highlighting selected work, impact, and technical skills."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Main navigation">
+        <a class="brand" href="index.html">A. Builder</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
+          Menu
+        </button>
+        <ul id="nav-links" class="nav-links">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <p class="eyebrow">Product Engineer</p>
+        <h1>Building useful products, one shipped project at a time.</h1>
+        <p class="lead">
+          I design and deliver software that solves real user problems. Start with my recent
+          projects, then dive into my experience.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="projects.html">View Projects</a>
+          <a class="btn btn-secondary" href="resume.html">View Resume</a>
+        </div>
+      </section>
+
+      <section class="container section">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <a href="projects.html" class="text-link">See all projects →</a>
+        </div>
+
+        <div class="project-grid">
+          <article class="card">
+            <h3>SignalBoard Analytics</h3>
+            <p>Real-time KPI dashboards that cut weekly reporting time by 80% across teams.</p>
+            <ul class="tags">
+              <li>TypeScript</li>
+              <li>React</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>FlowRoute Optimizer</h3>
+            <p>
+              Route optimization engine for field operations, reducing travel distance by 24%.
+            </p>
+            <ul class="tags">
+              <li>Python</li>
+              <li>FastAPI</li>
+              <li>OR-Tools</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>PulseCare Portal</h3>
+            <p>
+              HIPAA-ready patient portal with modern UX, improving appointment completion by 18%.
+            </p>
+            <ul class="tags">
+              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>Accessibility</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="container section" id="contact">
+        <div class="contact-card">
+          <h2>Let’s build something impactful.</h2>
+          <p>
+            Looking for an engineer who can ship quickly and think in product outcomes? Reach out.
+          </p>
+          <a class="btn btn-primary" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2026 A. Builder</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
